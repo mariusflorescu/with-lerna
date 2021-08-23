@@ -6,10 +6,8 @@
   },
   "scripts":{
     "bootstrap": "yarn install; lerna bootstrap;",
-    "start": "lerna run start --parallel",
     "start:app": "node -r ./dotenv.config.js node_modules/.bin/lerna run --scope @example/web-app --stream dev",
-    "build:app": "node -r ./dotenv.config.js node_modules/.bin/lerna run --scope @example/web-app --stream build",
-    "run:build:user": "lerna run start --scope app"
+    "build:app": "node -r ./dotenv.config.js node_modules/.bin/lerna run --scope @example/web-app --stream build"
   },
   "workspaces": [
     "packages/*"
