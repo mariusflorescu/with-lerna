@@ -1,5 +1,6 @@
 # with-lerna example
-An example of a split project into separate packages, useful for code sharing, using [Lerna](https://github.com/lerna/lerna).
+An example of a split project into separate packages, useful for code sharing, using [Lerna](https://github.com/lerna/lerna).  
+**[See live example](https://with-lerna.vercel.app/)** 
 
 ## General information:
 - it uses lerna  and [yarn](https://www.npmjs.com/package/yarn) as npm client.
