@@ -15,3 +15,8 @@ An example of a split project into separate packages, useful for code sharing, u
 - `lerna bootstrap`
 - `yarn start:app`
 - good to go 🤪
+
+## DEPLOYMENT INFORMATION ON VERCEL !!!
+When you are creating the project, at the **Configure Project** select:
+- Framework preset: `Next.js`
+- Root Directory: `./packages/web-app`
