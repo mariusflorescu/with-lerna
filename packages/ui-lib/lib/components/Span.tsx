@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { HTMLAttributes, DetailedHTMLProps } from 'react'
 
-const Span : React.FC<{}> = ({children}) => {
+type SpanProps = DetailedHTMLProps<HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>
+
+const Span : React.FC<SpanProps> = ({children, ...props}) => {
   return (
-    <span style={{color:'green', padding: '10px 5px'}}>{children}</span>
+    <span
+        style={{color:'green', padding: '10px 5px'}}
+        {...props}
+    >
+      {children}
+    </span>
   )
 }
 
